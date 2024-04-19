@@ -1,0 +1,767 @@
+repo_name: zafer1337/evilginx2
+report_id: 7980c61a67bb2f15004084cfaa9fb369
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-19T12:55:30+00:00'
+requested_by: zafer1337
+provider: github
+branch: master
+detected_tools_count: 54
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/zafer1337/evilginx2
+  detection_source: Repo Metadata
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/vendor/github.com/pelletier/go-toml/azure-pipelines.yml
+  detection_source: vendor/github.com/pelletier/go-toml/azure-pipelines.yml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/vendor/github.com/miekg/dns/.codecov.yml
+  detection_source: vendor/github.com/miekg/dns/.codecov.yml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2018-07-26 09:20:37.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/vendor/github.com/pelletier/go-toml/Dockerfile
+  detection_source: vendor/github.com/pelletier/go-toml/Dockerfile
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/zafer1337/evilginx2
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/.github/workflows/terraform.yml
+  detection_source: ".github/workflows/terraform.yml"
+  last_updated_by: Zafer Isildak
+  last_updated_on: 2024-04-14 01:40:02.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2018-07-26 09:20:37.000000000 Z
+- name: Apex
+  description: Serverless Architecture with AWS Lambda
+  website_url: https://github.com/apex/apex
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/4301/10543471.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2024-04-01 11:29:29.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: dns
+  description: DNS library in Go
+  package_url: https://pkg.go.dev/github.com/miekg/dns
+  version: 1.1.15
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2019-10-11 13:04:27.000000000 Z
+  vulnerabilities:
+  - name: Insecure generation of random numbers
+    cve_id: CVE-2019-19794
+    cve_url: https://github.com/advisories/GHSA-44r7-7p62-q3fr
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.1.25
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.0.0
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+  vulnerabilities:
+  - name: Excessive Platform Resource Consumption within a Loop in Kubernetes
+    cve_id: CVE-2019-11254
+    cve_url: https://github.com/advisories/GHSA-wxc4-f4m6-wwqv
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.2.8
+- name: afero
+  description: A FileSystem Abstraction System for Go
+  package_url: https://pkg.go.dev/github.com/spf13/afero
+  version: 1.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: apex/log
+  description: Structured logging package for Go
+  package_url: https://pkg.go.dev/github.com/apex/log
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: atomic
+  description: Wrapper types for sync/atomic which enforce atomic access
+  package_url: https://pkg.go.dev/go.uber.org/atomic
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: buntdb
+  description: BuntDB is an embeddable
+  package_url: https://pkg.go.dev/github.com/tidwall/buntdb
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2019-10-11 13:04:27.000000000 Z
+- name: cast
+  description: Safe and easy casting from one type to another in Go
+  package_url: https://pkg.go.dev/github.com/spf13/cast
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: color
+  description: Color package for Go
+  package_url: https://pkg.go.dev/github.com/fatih/color
+  version: 1.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.8.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: fsnotify
+  description: Cross-platform file system notifications for Go
+  package_url: https://pkg.go.dev/github.com/fsnotify/fsnotify
+  version: 1.4.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: gjson
+  description: Get JSON values quickly - JSON parser for Go
+  package_url: https://pkg.go.dev/github.com/tidwall/gjson
+  version: 1.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.1.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: go-jose.v2
+  description: Package jose aims to provide an implementation of the Javascript Object
+    Signing and Encryption set of standards
+  package_url: https://pkg.go.dev/gopkg.in/square/go-jose.v2
+  version: 2.3.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: go-toml
+  description: Go library for the TOML language
+  package_url: https://pkg.go.dev/github.com/pelletier/go-toml
+  version: 1.9.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: go-vhost
+  description: HTTP/TLS hostname multiplexing library for Go
+  package_url: https://pkg.go.dev/github.com/inconshreveable/go-vhost
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2019-10-11 13:04:27.000000000 Z
+- name: go.uuid
+  description: UUID package for Go
+  package_url: https://pkg.go.dev/github.com/satori/go.uuid
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: gocov
+  description: Coverage testing tool for The Go Programming Language
+  package_url: https://pkg.go.dev/github.com/axw/gocov
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: goproxy
+  description: An HTTP proxy library for Go
+  package_url: https://pkg.go.dev/github.com/elazarl/goproxy
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: gotenv
+  description: Load environment variables dynamically in Go
+  package_url: https://pkg.go.dev/github.com/subosito/gotenv
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: goveralls
+  description: Goveralls is a Go client for Coveralls.io
+  package_url: https://pkg.go.dev/github.com/mattn/goveralls
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: grect
+  description: Get the outer rectangle from GeoJSON, WKT, WKB
+  package_url: https://pkg.go.dev/github.com/tidwall/grect
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2024-04-01 11:29:29.000000000 Z
+- name: hcl
+  description: HCL is the HashiCorp configuration language
+  package_url: https://pkg.go.dev/github.com/hashicorp/hcl
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2019-10-11 13:04:27.000000000 Z
+- name: ini.v1
+  description: Package ini provides INI file read and write functionality in Go
+  package_url: https://pkg.go.dev/gopkg.in/ini.v1
+  version: 1.42.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: jwalterweatherman
+  description: So you always leave a note
+  package_url: https://pkg.go.dev/github.com/spf13/jwalterweatherman
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: kit
+  description: A standard library for microservices
+  package_url: https://pkg.go.dev/github.com/go-kit/kit
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: log15.v2
+  description: Package log15 provides an opinionated
+  package_url: https://pkg.go.dev/gopkg.in/inconshreveable/log15.v2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: logrus
+  description: Structured, pluggable logging for Go
+  package_url: https://pkg.go.dev/github.com/sirupsen/logrus
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: mapstructure
+  description: Go library for decoding generic map values into native Go structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/mapstructure
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: match
+  description: Simple string pattern matcher for Go
+  package_url: https://pkg.go.dev/github.com/tidwall/match
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: mux
+  description: "A powerful HTTP router and URL matcher for building Go web servers
+    with \U0001F98D"
+  package_url: https://pkg.go.dev/github.com/gorilla/mux
+  version: 1.6.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2019-10-11 13:04:27.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2019-10-11 13:04:27.000000000 Z
+- name: pflag
+  description: Drop-in replacement for Go's flag package
+  package_url: https://pkg.go.dev/github.com/spf13/pflag
+  version: 1.0.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: properties
+  description: Java properties scanner for Go
+  package_url: https://pkg.go.dev/github.com/magiconair/properties
+  version: 1.8.6
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: readline
+  description: Readline is a pure go
+  package_url: https://pkg.go.dev/github.com/chzyer/readline
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2019-10-11 13:04:27.000000000 Z
+- name: rtree
+  description: RTree implementation for Go
+  package_url: https://pkg.go.dev/github.com/tidwall/rtree
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2019-10-11 13:04:27.000000000 Z
+- name: testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  package_url: https://pkg.go.dev/github.com/stretchr/testify
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2024-03-01 14:42:19.000000000 Z
+- name: tidwall/btree
+  description: B-Tree implementation for Go
+  package_url: https://pkg.go.dev/github.com/tidwall/btree
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2024-03-01 14:42:19.000000000 Z
+- name: uuid
+  description: Automatically exported from code.google.com/p/go-uuid
+  package_url: https://pkg.go.dev/github.com/pborman/uuid
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: viper
+  description: Go configuration with fangs
+  package_url: https://pkg.go.dev/github.com/spf13/viper
+  version: 1.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
+- name: zap
+  description: Blazing fast, structured, leveled logging in Go
+  package_url: https://pkg.go.dev/go.uber.org/zap
+  version: 1.27.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2019-10-11 13:04:27.000000000 Z
+- name: zerolog
+  description: Zero Allocation JSON Logger
+  package_url: https://pkg.go.dev/github.com/rs/zerolog
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/zafer1337/evilginx2/blob/master/vendor/go.uber.org/zap/glide.yaml
+  detection_source: vendor/go.uber.org/zap/glide.yaml
+  last_updated_by: Kuba Gretzky
+  last_updated_on: 2023-05-10 09:04:32.000000000 Z
